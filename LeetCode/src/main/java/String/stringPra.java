@@ -83,7 +83,7 @@ public class stringPra {
                 if (i >= 0) carry += num1.charAt(i--) - '0';
                 if (j >= 0) carry += num2.charAt(j--) - '0';
                 sb.append(carry % 10);
-                carry /= 10;
+                carry /= 10;//kan 
             }
             return sb.reverse().toString();
         }
