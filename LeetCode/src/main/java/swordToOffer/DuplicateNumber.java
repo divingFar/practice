@@ -1,6 +1,11 @@
 package swordToOffer;
 
+import java.awt.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DuplicateNumber {
     // Parameters:
@@ -87,57 +92,144 @@ public class DuplicateNumber {
                 return -1;
             }
         }
-        int left = 0, right = length - 1;
+        int left = 1, right = length - 1;
         //统计数字个数应该是大于left小于right的所有的数字
         while (left < right) {
             int flag = 0;
-          int  mid = (left + right+1) >> 1;
+            int mid = left + right >> 1;
             for (int i = 0; i <= length - 1; i++) {
                 if (nums[i] >= left && nums[i] <= mid) {
+                    //flag代表介于left和mid之间的数字的个数
                     flag++;
                 }
             }
+            //mid-left+1代表左半区的位置数
             if (flag > mid - left + 1) {
-                right = mid-1;
+                right = mid;
             } else {
-                left = mid ;
+                left = mid + 1;
             }
         }
         return left;
     }
 
-
-/*    int bsearch_1(int l, int r)
-    {
-        while (l < r)
-        {
-            int mid = l + r >> 1;
-            if (check(mid)) r = mid;
-            else l = mid + 1;
+    /**
+     * 二分查找练习
+     *
+     * @param nums
+     * @param k
+     * @return
+     */
+    public static int binSearch(int[] nums, int k) {
+        int length = nums.length - 1;
+        int left = 0;
+        int right = length;
+        while (left < right) {
+            int mid = left + right >> 1;
+            if (nums[mid] > k) {
+                right = mid - 1;
+            } else if (nums[mid] < k) {
+                left = mid + 1;
+            } else {
+                return nums[mid];
+            }
         }
-        return l;
-    }*/
-
-
-   /* int bsearch_2(int l, int r)
-    {
-        while (l < r)
-        {
-            int mid = l + r + 1 >> 1;
-            if (check(mid)) l = mid;
-            else r = mid - 1;
-        }
-        return l;
+        return -1;
     }
-*/
+
+    /**
+     * 二维数组的查找，从右上角开始，每次排除一行或一列
+     *
+     * @param array
+     * @param target
+     * @return
+     */
+    public boolean searchArray(int[][] array, int target) {
+        int i = 0, j = array.length - 1;
+        while (i <= array.length - 1 && j >= 0) {
+            if (array[i][j] == target) {
+                return true;
+            }
+            if (array[i][j] > target) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 练习正则边查找边替换
+     */
+    private static Pattern pattern = Pattern.compile("\\s+");
+
+    public static String replaceSpace(StringBuffer str) {
+
+        if (str.toString().indexOf(" ") == -1) {
+            return str.toString();
+        }
+        StringBuffer sb = new StringBuffer();
+        Matcher matcher = pattern.matcher(str.toString());
+        while (matcher.find()) {
+            matcher.appendReplacement(sb, "20%");
+        }
+        matcher.appendTail(sb);
+
+        return sb.toString();
+
+    }
+
+    public static String replaceSpace1(StringBuffer str) {
+        int spaceCount=0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ' ') {
+                spaceCount++;
+            }
+        }
+        if(spaceCount==0){
+            return str.toString();
+        }
+        int p1 = str.length() - 1;
+        /**
+         * 英文原来的空格也占用了一个位置,所以只需要乘以2就好
+         */
+        int p2 = p1 + spaceCount *2 ;
+        str.setLength(p2+1);
+        while (p1!=p2) {
+            if (str.charAt(p1)!=' ') {
+                str.setCharAt(p2, str.charAt(p1));
+                p1--;
+                p2--;
+            }else{
+                str.setCharAt(p2,'0');
+                str.setCharAt(--p2,'2');
+                str.setCharAt(--p2,'%');
+                p1--;
+                p2--;
+            }
+        }
+        return str.toString();
+    }
 
 
 
     public static void main(String[] args) {
         //2,4,2,1,4
-        int[] numbers = {1, 7, 5, 9, 7, 9, 5, 1, 5, 6, 7};
+      /*  int[] numbers = {1, 3, 5, 7, 9, 11};
         int duplicate = duplicateInArray(numbers);
-        System.out.println(duplicate);
+        System.out.println(binSearch(numbers, 4));*/
+      /*  int[]  nums={1,2,3,4};
+        int  left=1;
+        int right =4;
+        int mid=left+right+1>>1;
+        int mid1=left+right>>1;
+        System.out.println(mid);
+        System.out.println(mid1);*/
+        String string = "hello world happy";
+        StringBuffer str = new StringBuffer();
+        str.append(string);
+        System.out.println(replaceSpace1(str));
 
     }
 }
