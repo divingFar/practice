@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/ReConstructBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +167,7 @@
       <workItem from="1575946823017" duration="11810000" />
       <workItem from="1576124367862" duration="4699000" />
       <workItem from="1576215285907" duration="5970000" />
+      <workItem from="1576499863133" duration="4578000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575982181954</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="快排">
+      <created>1576499890752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576499890752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,61 +220,66 @@
     <MESSAGE value="添加了idea的设置包，更新了ssh" />
     <MESSAGE value="更新了不烦刷题代码" />
     <MESSAGE value="刷题" />
-    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
+    <MESSAGE value="快排" />
+    <option name="LAST_COMMIT_MESSAGE" value="快排" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1575982181179">
+    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1576499890062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575982181179" />
+    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576499890062" />
     <state x="184" y="79" key="DiffContextDialog" timestamp="1575982163868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575982163868" />
-    <state width="1865" height="272" key="GridCell.Tab.0.bottom" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.0.bottom" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.0.center" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.0.center" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.0.left" timestamp="1576478345288">
+    <state width="1865" height="45" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.0.left" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345288" />
-    <state width="1865" height="272" key="GridCell.Tab.0.right" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.0.right" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.1.bottom" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.1.bottom" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.1.center" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.1.center" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.1.left" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.1.left" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
-    <state width="1865" height="272" key="GridCell.Tab.1.right" timestamp="1576478345289">
+    <state width="1865" height="45" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
+    <state width="1865" height="45" key="GridCell.Tab.1.right" timestamp="1576506152811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="272" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="45" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576506152811" />
     <state x="345" y="0" key="SettingsEditor" timestamp="1575948412698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575948412698" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1575982194775">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1576499896152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575982194775" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576499896152" />
     <state x="719" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576124801860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576124801860" />
+    <state x="397" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576502963173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="397" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1576502963173" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,23 +406,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>52</line>
+          <line>88</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="43" />
+          <line>66</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="44" />
+          <line>61</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="45" />
+          <line>36</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/DuplicateNumber.java</url>
@@ -421,6 +436,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>64</line>
+          <properties class="sort.QuickSort" method="quickSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
