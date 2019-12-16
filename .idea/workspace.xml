@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/ReConstructBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/DuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/DuplicateNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="D:\sourceCodeOfLab\practice\Document\idea的设置" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackToQueue">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.ArrayTest" />
       <module name="hello-world" />
@@ -88,6 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swordToOffer.Fibonacci" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swordToOffer.StackToQueue" />
       <module name="LeetCode" />
@@ -101,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringPra" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stringPra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.stringPra" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.StackToQueue" />
         <item itemvalue="Application.DuplicateNumber" />
         <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.StringPra" />
-        <item itemvalue="Application.stringPra" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,9 @@
       <workItem from="1575186162372" duration="876000" />
       <workItem from="1575359479600" duration="45621000" />
       <workItem from="1575602519003" duration="3464000" />
-      <workItem from="1575946823017" duration="7516000" />
+      <workItem from="1575946823017" duration="11810000" />
+      <workItem from="1576124367862" duration="4699000" />
+      <workItem from="1576215285907" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -182,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575449740553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="刷题">
+      <created>1575982181954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575982181954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,45 +214,62 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了idea的设置包，更新了ssh" />
     <MESSAGE value="更新了不烦刷题代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了不烦刷题代码" />
+    <MESSAGE value="刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="250" key="GridCell.Tab.0.bottom" timestamp="1575981180055">
+    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1575982181179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575981180055" />
-    <state width="1865" height="250" key="GridCell.Tab.0.center" timestamp="1575981180055">
+    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575982181179" />
+    <state x="184" y="79" key="DiffContextDialog" timestamp="1575982163868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575981180055" />
-    <state width="1865" height="250" key="GridCell.Tab.0.left" timestamp="1575981180055">
+    <state x="184" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575982163868" />
+    <state width="1865" height="272" key="GridCell.Tab.0.bottom" timestamp="1576478345289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575981180055" />
-    <state width="1865" height="250" key="GridCell.Tab.0.right" timestamp="1575981180055">
+    <state width="1865" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.0.center" timestamp="1576478345289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575981180055" />
-    <state width="1865" height="322" key="GridCell.Tab.1.bottom" timestamp="1575979849726">
+    <state width="1865" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.0.left" timestamp="1576478345288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575979849726" />
-    <state width="1865" height="322" key="GridCell.Tab.1.center" timestamp="1575979849726">
+    <state width="1865" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345288" />
+    <state width="1865" height="272" key="GridCell.Tab.0.right" timestamp="1576478345289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575979849726" />
-    <state width="1865" height="322" key="GridCell.Tab.1.left" timestamp="1575979849726">
+    <state width="1865" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.1.bottom" timestamp="1576478345289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575979849726" />
-    <state width="1865" height="322" key="GridCell.Tab.1.right" timestamp="1575979849726">
+    <state width="1865" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.1.center" timestamp="1576478345289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575979849726" />
+    <state width="1865" height="272" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.1.left" timestamp="1576478345289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="272" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
+    <state width="1865" height="272" key="GridCell.Tab.1.right" timestamp="1576478345289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="272" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576478345289" />
     <state x="345" y="0" key="SettingsEditor" timestamp="1575948412698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575948412698" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1575982194775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575982194775" />
+    <state x="719" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576124801860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576124801860" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,23 +376,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/StackToQueue.java</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/DuplicateNumber.java</url>
