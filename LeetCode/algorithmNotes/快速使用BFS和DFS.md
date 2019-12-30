@@ -1,36 +1,40 @@
 两种常用的搜索方式
-BFS
+
+## BFS
+
 优缺点
-空间是指数级别的 大！！！
+空间是指数级别的 大！！！**
 不会有爆栈的风险
 可以搜最短，最小
 代码模板
 
-    queue<int> q;
-    st[0] = true; // 表示1号点已经被遍历过
-    q.push(0);
-    
-    while (q.size())
+```java
+queue<int> q;
+st[0] = true; // 表示1号点已经被遍历过
+q.push(0);
+
+while (q.size())
+{
+    int t = q.front();
+    q.pop();
+
+    for (int i = h[t]; i != -1; i = ne[i])
     {
-        int t = q.front();
-        q.pop();
-    
-        for (int i = h[t]; i != -1; i = ne[i])
+        int j = e[i];
+        if (!s[j])
         {
-            int j = e[i];
-            if (!s[j])
-            {
-                st[j] = true; // 表示点j已经被遍历过
-                q.push(j);
-            }
+            st[j] = true; // 表示点j已经被遍历过
+            q.push(j);
         }
     }
-典型例题
-
-完全平方数
+}
+```
+典型例题完全平方数
 走迷宫
 层序遍历
-DFS
+
+## DFS
+
 优缺点
 容易爆栈 如果树有1e4层，就爆了
 空间和深度成正比，相对较小

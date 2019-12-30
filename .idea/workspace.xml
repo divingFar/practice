@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/搜索算法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/MovingCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/学习记录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/HasPass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/快速使用BFS和DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/快速使用BFS和DFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/搜索算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/搜索算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/新建文本文档 (2).md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板记录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/MovingCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mathematics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCode/src/main/java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -178,7 +183,10 @@
       <workItem from="1577000022618" duration="609000" />
       <workItem from="1577066226683" duration="623000" />
       <workItem from="1577076259365" duration="1193000" />
-      <workItem from="1577156672225" duration="3320000" />
+      <workItem from="1577156672225" duration="3530000" />
+      <workItem from="1577414406686" duration="5872000" />
+      <workItem from="1577425949560" duration="622000" />
+      <workItem from="1577674365414" duration="4864000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -215,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576506169717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="快排">
+      <created>1577281655806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577281655806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="11">
+      <created>1577281703330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577281703330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +261,8 @@
     <MESSAGE value="更新了不烦刷题代码" />
     <MESSAGE value="刷题" />
     <MESSAGE value="快排" />
-    <option name="LAST_COMMIT_MESSAGE" value="快排" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="661" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577257112348">
@@ -250,18 +273,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="427" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576588134960" />
-    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1577281655035">
+    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1577281702620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577281655035" />
+    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577281702620" />
     <state x="184" y="79" key="DiffContextDialog" timestamp="1575982163868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575982163868" />
-    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1577156749531">
+    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1577425971997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577156749531" />
+    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577425971997" />
     <state width="1865" height="195" key="GridCell.Tab.0.bottom" timestamp="1576591843547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,14 +321,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575948412698" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1577281678140">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1577281709940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577281678140" />
-    <state x="577" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1577080266874">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577281709940" />
+    <state x="577" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1577425951113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="296" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577080266874" />
+    <state x="577" y="296" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577425951113" />
     <state x="719" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576124801860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,6 +337,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="397" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1576502963173" />
+    <state x="574" y="184" width="771" height="672" key="find.popup" timestamp="1577711351161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="184" width="771" height="672" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577711351161" />
+    <state x="-243" y="108" key="new project wizard" timestamp="1577704229809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-243" y="108" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577704229809" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1577416476044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577416476044" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
