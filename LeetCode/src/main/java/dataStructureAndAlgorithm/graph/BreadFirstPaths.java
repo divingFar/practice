@@ -2,6 +2,9 @@ package dataStructureAndAlgorithm.graph;
 
 import algs4.Queue;
 
+import java.rmi.MarshalException;
+import java.util.LinkedList;
+
 /**
  * @author hzk
  */
@@ -19,6 +22,12 @@ public class BreadFirstPaths {
         this.s = s;
         bfs(G, s);
     }
+
+    /**
+     *
+     * @param G
+     * @param s 图的顶点
+     */
     public void bfs(Graph G, int s) {
         Queue<Integer> queue = new Queue<Integer>();
         marked[s] = true;
