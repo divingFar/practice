@@ -11,7 +11,9 @@ public class StackToQueue {
     }
 
     public int pop() {
-
+/**
+ * 应该先检查栈1是否为空
+ */
         if (!stack1.isEmpty()) {
             Integer pop = stack1.pop();
             System.out.println(pop);
