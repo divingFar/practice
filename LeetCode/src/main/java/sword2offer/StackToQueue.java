@@ -1,4 +1,4 @@
-package swordToOffer;
+package sword2offer;
 
 import java.util.Stack;
 

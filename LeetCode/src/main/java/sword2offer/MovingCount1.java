@@ -1,4 +1,4 @@
-package swordToOffer;
+package sword2offer;
 
 
 import java.util.LinkedList;
@@ -94,7 +94,6 @@ public class MovingCount1 {
         }
         return 0;
     }
-
 
     public static void main(String[] args) {
         MovingCount1 movingCount1 = new MovingCount1();

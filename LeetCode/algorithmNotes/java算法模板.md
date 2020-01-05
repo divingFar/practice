@@ -8,7 +8,6 @@
 ```java
 private void dfs(Graph G, int v) {
     marked[v] = true;
-    count++;
     for (int w : G.adj(v)) {
         if (!marked[w]) {
             dfs(G, w);

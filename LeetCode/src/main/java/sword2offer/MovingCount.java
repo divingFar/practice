@@ -1,8 +1,7 @@
-package swordToOffer;
+package sword2offer;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 /**
  * @author hzk
@@ -79,7 +78,7 @@ public class MovingCount {
         if (rows < 1 || cols < 1||threshold<0) {
             return 0;
         }
-        Queue<Node> que = new LinkedList<>();
+        Queue<Node> que = new LinkedList<Node>();
         visited[0][0] = true;
         que.add(new Node(0, 0));
         int result = 0;
