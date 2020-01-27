@@ -1,6 +1,4 @@
-package swordToOffer;
-
-import java.rmi.MarshalException;
+package sword2offer;
 
 /**
  * @author hzk
