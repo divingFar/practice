@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/java算法模板.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/DeepFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/MovingCount1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板阅读讲解版.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/论执着与稳重的好处DFSBFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/论执着与稳重的好处DFSBFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/BreadFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/BreadFirstPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/dataStructureAndAlgorithm/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/HasPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/HasPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,6 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -69,20 +74,19 @@
       <recent name="D:\sourceCodeOfLab\practice\Document\idea的设置" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovingCount1">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swordToOffer.Fibonacci" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="swordToOffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HasPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swordToOffer.HasPass" />
       <module name="LeetCode" />
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingCount$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swordToOffer.MovingCount$Node" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.bsearch.Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swordToOffer.*" />
+          <option name="PATTERN" value="basic_algorithm.bsearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +129,7 @@
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="LeetCode" />
+      <option name="VM_PARAMETERS" value="1 2 3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sort.*" />
@@ -135,27 +140,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_algorithm.bsearch.Test" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_algorithm.bsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HasPass" />
+      <item itemvalue="Application.MovingCount1" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MovingCount1" />
         <item itemvalue="Application.HasPass" />
-        <item itemvalue="Application.MovingCount$Node" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,7 +205,10 @@
       <workItem from="1577674365414" duration="6023000" />
       <workItem from="1577758246694" duration="11241000" />
       <workItem from="1577932916069" duration="9497000" />
-      <workItem from="1577947466722" duration="13994000" />
+      <workItem from="1577947466722" duration="14025000" />
+      <workItem from="1579850129259" duration="5124000" />
+      <workItem from="1580030850533" duration="3545000" />
+      <workItem from="1580096486435" duration="14318000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -250,11 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577712133806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="将算法书上的代码移植到pratice上来了">
+      <created>1577973226540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577973226540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -270,6 +296,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="添加了idea的设置包，更新了ssh" />
     <MESSAGE value="更新了不烦刷题代码" />
     <MESSAGE value="刷题" />
@@ -295,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="427" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576588134960" />
-    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1577784826351">
+    <state x="489" y="41" key="CommitChangelistDialog2" timestamp="1577973225710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577784826351" />
+    <state x="489" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577973225710" />
     <state x="184" y="79" key="DiffContextDialog" timestamp="1575982163868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -307,46 +334,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577938998552" />
-    <state width="1865" height="32" key="GridCell.Tab.0.bottom" timestamp="1577969195719">
+    <state width="1865" height="130" key="GridCell.Tab.0.bottom" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="32" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577969195719" />
-    <state width="1865" height="32" key="GridCell.Tab.0.center" timestamp="1577969195719">
+    <state width="1865" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.0.center" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="32" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577969195719" />
-    <state width="1865" height="32" key="GridCell.Tab.0.left" timestamp="1577969195719">
+    <state width="1865" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.0.left" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="32" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577969195719" />
-    <state width="1865" height="32" key="GridCell.Tab.0.right" timestamp="1577969195719">
+    <state width="1865" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.0.right" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="32" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577969195719" />
-    <state width="1865" height="130" key="GridCell.Tab.1.bottom" timestamp="1577969012384">
+    <state width="1865" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.1.bottom" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577969012384" />
-    <state width="1865" height="130" key="GridCell.Tab.1.center" timestamp="1577969012384">
+    <state width="1865" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.1.center" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577969012384" />
-    <state width="1865" height="130" key="GridCell.Tab.1.left" timestamp="1577969012384">
+    <state width="1865" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.1.left" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577969012384" />
-    <state width="1865" height="130" key="GridCell.Tab.1.right" timestamp="1577969012384">
+    <state width="1865" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
+    <state width="1865" height="130" key="GridCell.Tab.1.right" timestamp="1577973250395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577969012384" />
+    <state width="1865" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577973250395" />
     <state x="345" y="0" key="SettingsEditor" timestamp="1575948412698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575948412698" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1577784832561">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1577973234731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577784832561" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577973234731" />
     <state x="577" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1577932919147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -501,27 +528,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>66</line>
+          <line>67</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>61</line>
+          <line>62</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>68</line>
+          <line>69</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -569,6 +591,66 @@
           <line>38</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/swordToOffer/DuplicateNumber.java</url>
           <line>77</line>
@@ -579,11 +661,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>64</line>
-          <properties class="sort.QuickSort" method="quickSort">
+          <line>65</line>
+          <properties class="sort.QuickSort">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
+          <line>189</line>
+          <properties class="sort.QuickSort" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/algs4/Graph.java</url>
@@ -595,10 +685,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/practice$DuplicateNumber.ic" NAME="DuplicateNumber Coverage Results" MODIFIED="1575606462413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/practice$MovingCount1.ic" NAME="MovingCount1 Coverage Results" MODIFIED="1577968275947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>swordToOffer.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/practice$MovingCount1.ic" NAME="MovingCount1 Coverage Results" MODIFIED="1577968275947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/practice$DuplicateNumber.ic" NAME="DuplicateNumber Coverage Results" MODIFIED="1575606462413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>swordToOffer.*</FILTER>
     </SUITE>
   </component>
