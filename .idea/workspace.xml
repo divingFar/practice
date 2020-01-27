@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板阅读讲解版.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Mul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +204,7 @@
       <workItem from="1577947466722" duration="14025000" />
       <workItem from="1579850129259" duration="5124000" />
       <workItem from="1580030850533" duration="3545000" />
-      <workItem from="1580096486435" duration="14318000" />
+      <workItem from="1580096486435" duration="19409000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -273,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577973226540</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="在家添加了算法模板">
+      <created>1580117550142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580117550143</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +306,8 @@
     <MESSAGE value="快排" />
     <MESSAGE value="11" />
     <MESSAGE value="将算法书上的代码移植到pratice上来了" />
-    <option name="LAST_COMMIT_MESSAGE" value="将算法书上的代码移植到pratice上来了" />
+    <MESSAGE value="在家添加了算法模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="在家添加了算法模板" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="96" key="#Notifications" timestamp="1577712231967">
@@ -592,59 +596,19 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>142</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>192</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
-          <line>40</line>
+          <line>39</line>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/bsearch/Main.java</url>
@@ -669,8 +633,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>189</line>
-          <properties class="sort.QuickSort" method="main">
+          <line>110</line>
+          <properties class="sort.QuickSort">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="62" />
