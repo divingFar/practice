@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Div.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/main/java/basic_algorithm/big_data/Mul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +199,7 @@
       <workItem from="1577947466722" duration="14025000" />
       <workItem from="1579850129259" duration="5124000" />
       <workItem from="1580030850533" duration="3545000" />
-      <workItem from="1580096486435" duration="19409000" />
+      <workItem from="1580096486435" duration="19797000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -276,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580117550143</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="大数运算">
+      <created>1580127625459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580127625459</updated>
+    </task>
+    <task id="LOCAL-00012" summary="大数运算">
+      <created>1580127658800</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580127658800</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +316,8 @@
     <MESSAGE value="11" />
     <MESSAGE value="将算法书上的代码移植到pratice上来了" />
     <MESSAGE value="在家添加了算法模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="在家添加了算法模板" />
+    <MESSAGE value="大数运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="大数运算" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="96" key="#Notifications" timestamp="1577712231967">
