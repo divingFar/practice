@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b522e49-3f52-47fe-a46f-739712472cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/LogProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/TestCglib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/proxy/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myJava/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document/idea的设置/settings.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document/plan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myJava/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/generic/ArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/generic/DynamicArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/generic/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/io/file/FileDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/io/stream/IOTestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/io/stream/io.输入输出流" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/src/main/java/string/stringPra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/target/classes/String/stringPra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document/learnPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法基础课整理别人的好的解法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板背诵版.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/algorithmNotes/算法模板阅读讲解版.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +73,7 @@
       <recent name="D:\sourceCodeOfLab\practice\LeetCode\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCglib">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HasPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sword2offer.HasPass" />
       <module name="LeetCode" />
@@ -103,15 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingCount$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sword2offer.MovingCount$Node" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sword2offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="myJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,18 +136,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HasPass" />
-      <item itemvalue="Application.MovingCount$Node" />
       <item itemvalue="Application.MovingCount1" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestCglib" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestCglib" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MovingCount1" />
         <item itemvalue="Application.HasPass" />
-        <item itemvalue="Application.MovingCount$Node" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +205,7 @@
       <workItem from="1591582889550" duration="18000" />
       <workItem from="1593852984771" duration="5079000" />
       <workItem from="1593865861596" duration="5258000" />
+      <workItem from="1593947492325" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="添加了idea的设置包，更新了ssh">
       <created>1574776048173</created>
@@ -298,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578228377131</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="删除了一些没用的东西">
+      <created>1593947707637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593947707637</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,9 +312,14 @@
     <MESSAGE value="将算法书上的代码移植到pratice上来了" />
     <MESSAGE value="修改了部分东西" />
     <MESSAGE value="算法模板添加了位运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法模板添加了位运算" />
+    <MESSAGE value="删除了一些没用的东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除了一些没用的东西" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="517" y="132" key="#Notifications" timestamp="1593947781448">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="517" y="132" key="#Notifications/0.0.2048.1112@0.0.2048.1112" timestamp="1593947781448" />
     <state x="479" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593870568612">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -337,34 +328,66 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1298" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1593869108163" />
+    <state x="559" y="81" key="CommitChangelistDialog2" timestamp="1593947706926">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="559" y="81" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1593947706926" />
     <state x="755" y="255" key="FileChooserDialogImpl" timestamp="1593868983633">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="255" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1593868983633" />
-    <state width="1995" height="432" key="GridCell.Tab.0.bottom" timestamp="1593870571007">
+    <state width="1995" height="3" key="GridCell.Tab.0.bottom" timestamp="1593950761502">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="432" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1593870571007" />
-    <state width="1995" height="432" key="GridCell.Tab.0.center" timestamp="1593870571007">
+    <state width="1995" height="3" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1593950761502" />
+    <state width="1995" height="3" key="GridCell.Tab.0.center" timestamp="1593950761502">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="432" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1593870571007" />
-    <state width="1995" height="432" key="GridCell.Tab.0.left" timestamp="1593870571007">
+    <state width="1995" height="3" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1593950761502" />
+    <state width="1995" height="3" key="GridCell.Tab.0.left" timestamp="1593950761502">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="432" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1593870571007" />
-    <state width="1995" height="432" key="GridCell.Tab.0.right" timestamp="1593870571007">
+    <state width="1995" height="3" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1593950761502" />
+    <state width="1995" height="3" key="GridCell.Tab.0.right" timestamp="1593950761502">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="432" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1593870571007" />
+    <state width="1995" height="3" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1593950761502" />
+    <state width="1995" height="359" key="GridCell.Tab.1.bottom" timestamp="1593949375873">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="359" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1593949375873" />
+    <state width="1995" height="359" key="GridCell.Tab.1.center" timestamp="1593949375873">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="359" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1593949375873" />
+    <state width="1995" height="359" key="GridCell.Tab.1.left" timestamp="1593949375873">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="359" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1593949375873" />
+    <state width="1995" height="359" key="GridCell.Tab.1.right" timestamp="1593949375873">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="359" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1593949375873" />
     <state x="403" y="260" key="Maven.ArtifactSearchDialog" timestamp="1593870142427">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="403" y="260" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1593870142427" />
+    <state x="198" y="100" key="MergeDialog" timestamp="1593947760589">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="198" y="100" key="MergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1593947760589" />
+    <state x="667" y="203" key="MultipleFileMergeDialog" timestamp="1593947768777">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="667" y="203" key="MultipleFileMergeDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1593947768777" />
     <state x="377" y="27" key="SettingsEditor" timestamp="1593870438003">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="377" y="27" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1593870438003" />
+    <state x="517" y="225" key="Vcs.Push.Dialog.v2" timestamp="1593947787121">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="517" y="225" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1593947787121" />
     <state x="647" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1593947492395">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -498,31 +521,6 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sword2offer/HasPass.java</url>
           <line>86</line>
           <option name="timeStamp" value="52" />
@@ -574,14 +572,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/LeetCode/src/main/java/sort/QuickSort.java</url>
-          <line>64</line>
-          <properties class="sort.QuickSort" method="quickSort">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/LeetCode/src/main/java/algs4/Graph.java</url>
