@@ -11,6 +11,8 @@
     <modules>
         <module>LeetCode</module>
         <module>hello-world</module>
+        <module>javaSENew</module>
+        <module>myJava</module>
     </modules>
 
 

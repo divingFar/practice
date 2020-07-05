@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hello-world</artifactId>
+    <artifactId>myJava</artifactId>
+    <dependencies>
+        <dependency>
 
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
